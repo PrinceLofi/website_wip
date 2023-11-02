@@ -1,0 +1,97 @@
+@import url('@import url("fonts/roboto/stylesheet.css")');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Canto Brush', sans-serif;
+    
+}
+
+
+.head{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.wip{
+    border-top: 2px solid #F7C06C;  
+}
+
+
+.text{
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 5%;
+    z-index: 1;
+    
+
+}
+
+.text h1{
+    font-size: 2vw;
+    
+    
+}
+
+.text p{
+    color: #F7C06C;
+}
+
+
+
+/* eye candy */
+
+.butterfly{
+    z-index: 10;
+    margin-left: 18%;
+    margin-bottom: -9.7%;
+    
+
+}
+
+.butterfly img{
+    height: 47.5vh;
+    width: 21.5vw;
+    
+
+    transition-property:all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transform-origin: center center;
+}
+
+
+
+
+@media only screen and (min-width: 300px){
+
+    .text h1{
+        font-size: 4vw;
+    }
+
+    .butterfly{
+        margin-top: 50%;
+        margin-left: -4%;
+        margin-bottom: -15%;
+    }
+
+    .butterfly img{
+        height: 15vh;
+        width: 10.5vh;
+    }
+}
+
