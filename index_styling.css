@@ -22,7 +22,7 @@ body {
 }
 
 
-
+/* change */
 
 
 
@@ -56,7 +56,7 @@ body {
 
 .butterfly{
     z-index: 10;
-    margin-left: 17.3%;
+    margin-left: 23%;
     margin-bottom: -5.5%;
     
 
@@ -85,12 +85,12 @@ body {
 
     .butterfly{
         margin-top: 50%;
-        margin-left: -6%;
-        margin-bottom: -13%;
+        margin-left: 1%;
+        margin-bottom: -12%;
     }
 
     .butterfly img{
-        height: 15vh;
+        height: 12vh;
         width: 10.5vh;
     }
 }
